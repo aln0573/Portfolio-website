@@ -17,7 +17,11 @@ const About = () => {
         </div>
         <div className="flex-1">
           <p className="mb-10 max-w-2xl font-Ovo">
-            Self-taught full-stack web developer with strong expertise in the MERN stack (MongoDB, Express.js, React, Next.js, Node.js) and proven experience building and deploying scalable web applications. Skilled in developing e-commerce platforms, social media clones, and appointment systems while adhering to MVC architecture and modern development best practices. Proficient in Firebase, Tailwind CSS, and Git, with a focus on writing clean, maintainable, and efficient code. Passionate about continuous learning, problem-solving, and effective communication to deliver high-quality solutions and grow as a versatile developer.
+            Passionate and dedicated MERN Stack Developer with hands-on professional experience in de-
+signing and developing full-stack web applications. Skilled in building scalable and efficient
+solutions using React.js, Node.js, Express.js, and MongoDB. Experienced in REST API devel-
+opment, authentication systems, and responsive UI design. Quick learner, team-oriented, and
+driven by a desire to deliver high-quality code and impactful digital solutions.
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {infoList.map(({icon, iconDark, title, description}, index) => (

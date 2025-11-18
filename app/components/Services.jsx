@@ -15,14 +15,11 @@ const Services = () => {
         My Services
       </h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-sm sm:text-base text-muted-foreground">
-        I'm Alan Thomas, a passionate MERN stack developer from Kozhikode, Kerala.
-With hands-on experience in building scalable and efficient web applications, 
-I have developed projects like a Netflix Clone, an E-commerce Website, a YouTube Clone,
- a Gemini AI Clone, and a Doctor Appointment App. These projects reflect my expertise in 
- creating responsive interfaces, integrating real-time features, and delivering intuitive user experiences.
-  I specialize in using modern technologies such as React, Node.js, MongoDB, Express.js, Firebase, and Tailwind CSS 
-  to build clean, maintainable, and high-performance solutions. I’m driven by a love for problem-solving and constantly 
-  expanding my skills to create innovative and impactful applications.
+        Passionate MERN stack developer from Kozhikode, Kerala. With hands-on experience in building scalable
+         and efficient web applications, I have developed diverse projects including a Real-Time Chat Application, an E-commerce 
+         Website, a Single Page Application (SPA) booking platform with advanced scheduling features, a comprehensive hospital 
+         management dashboard, and a Doctor Appointment System. These projects reflect my expertise in creating responsive 
+         interfaces, integrating real-time features, and delivering intuitive user experiences across various domains.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 my-10">
         {serviceData.map(({ icon, title, description, link }, index) => (

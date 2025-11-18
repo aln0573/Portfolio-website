@@ -79,10 +79,10 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Youtube-Clone',
+        title: 'Real Time chat appliation',
         description: 'Web Design',
-        link:'https://youtube-clone-ten-indol.vercel.app/',
-        bgImage: '/work-1.png',
+        link:'https://chat-applications-front.onrender.com',
+        bgImage: 'https://www.thecrazyprogrammer.com/wp-content/uploads/2020/08/How-a-Real-Time-Chat-Application-Works.png',
     },
     {
         title: 'E-commerce',
@@ -112,10 +112,10 @@ export const serviceData = [
       "Developed a Netflix Clone with modern UI/UX, responsive design, and real-time video browsing features using React, Tailwind CSS, and TMDB API.",
   },
   {
-    icon: "https://api.iconify.design/mdi:youtube.svg",
-    title: "YouTube Clone",
+    icon: "https://api.iconify.design/mdi:message-text.svg",
+    title: "Real Time chat app",
     description:
-      "Built a YouTube Clone with video playback, search, and recommendations powered by React and YouTube API integration.",
+      "Built a Real Time Chat appliaction using mern stack. Implemented socket io, rate limting, notification sound, typing effect",
   },
   {
     icon: "https://api.iconify.design/mdi:cart-outline.svg",
